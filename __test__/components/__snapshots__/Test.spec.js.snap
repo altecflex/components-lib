@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input component Matches the snapshot 1`] = `
+<div
+  className="field undefined false"
+>
+  <input
+    onBlur={[Function]}
+    onFocus={[Function]}
+    placeholder="Field label"
+    type="text"
+  />
+  <label
+    className=""
+    htmlFor={1}
+  >
+    Field label
+  </label>
+</div>
+`;
