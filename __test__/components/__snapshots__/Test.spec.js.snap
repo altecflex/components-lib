@@ -7,14 +7,14 @@ exports[`Input component Matches the snapshot 1`] = `
   <input
     onBlur={[Function]}
     onFocus={[Function]}
-    placeholder="Field label"
+    placeholder="Name"
     type="text"
   />
   <label
     className=""
     htmlFor={1}
   >
-    Field label
+    Name
   </label>
 </div>
 `;

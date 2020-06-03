@@ -4,7 +4,7 @@ import { InputComponent } from '../../src/components/InputComponent/InputCompone
 
 describe("Input component", () => {
     test("Matches the snapshot", () => {
-        const input = create(<InputComponent />);
+        const input = create(<InputComponent placeholderTxt="Name" />);
         expect(input.toJSON()).toMatchSnapshot();
     });
 });
