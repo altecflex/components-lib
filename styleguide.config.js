@@ -1,6 +1,8 @@
 const path = require("path");
+const version = require("./package").version;
 
 module.exports = {
+    version,
     title: 'Design System | Alliance Bank',
     ignore: ['**/*.spec.js', '**/**/ThemeProvider.js'],
     styleguideDir: 'dist-docs',
@@ -21,6 +23,16 @@ module.exports = {
             h4: 18,
             h5: 16,
             h6: 12,
+        },
+        color: {
+            codeBackground: '#272C34',
+            codeString: '#a6e22e',
+            codeKeyword: '#66d9ef',
+            codeOperator: '#f8f8f2',
+            codePunctuation: '#f8f8f2',
+            codeBase: '#f8f8f2',
+            codeFunction: '#e6db74',
+            codeProperty: '',
         }
     },
     template: {
@@ -67,4 +79,5 @@ module.exports = {
         }
     ],
     exampleMode: 'expand',
+    usageMode: 'expand',
 }

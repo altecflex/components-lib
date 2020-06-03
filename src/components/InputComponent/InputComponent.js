@@ -1,21 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-/**
- * Input field with label
- * @param {string} label - The label for input
- * @callback callback - function to handle change event
- */
-
 export class InputComponent extends React.Component {
     static propTypes = {
+        /** Preset input value */
         value: PropTypes.string,
+        /** Specifies placeholder for input box */
         placeholderTxt: PropTypes.string
     };
 
-    static defaultProps = {
-        placeholderTxt: 'Field label'
-    };
+    // static defaultProps = {
+    //     placeholderTxt: ''
+    // };
 
     constructor(props, context) {
         super(props, context);

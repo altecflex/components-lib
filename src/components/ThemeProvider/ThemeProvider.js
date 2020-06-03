@@ -4,7 +4,10 @@ import classnames from 'classnames';
 import { Helmet } from 'react-helmet';
 
 const defaultTitle = "Design System | Alliance Bank";
-const defaultLink = [{ rel: "stylesheet", href: "https://codepen.io/altecflex/pen/LYpwwLN.css" }]
+const defaultLink = [
+    { rel: "stylesheet", href: "https://codepen.io/altecflex/pen/LYpwwLN.css" },
+    // { rel: "stylesheet", href: "https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"}
+]
 
 export default function ThemeProvider({
     children,

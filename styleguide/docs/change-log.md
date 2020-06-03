@@ -1,3 +1,17 @@
-### Updates
-- 21/5/2020 - change typography
-- 22/5/2020 - removed dummy text lorem ipsum
+All notable changes to this project will be documented in this page
+
+### [1.0.2] - 2020-05-22
+#### Added
+- Version navigation.
+- Getting Started section
+- InputComponent
+#### Changed
+- Button proptypes
+#### Removed
+- terms of service
+### [1.0.1] - 2020-05-20
+#### Added
+- Version navigation.
+- Getting Started section
+- InputComponent
+
